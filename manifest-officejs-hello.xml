@@ -8,11 +8,11 @@
   <Version>1.0.0</Version>
   <ProviderName>Zoomer Analytics GmbH</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Hello Office.js" />
+  <DisplayName DefaultValue="Long Xin Chào" />
   <Description DefaultValue="A Hello Office.js App." />
   <IconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-32.png" />
   <HighResolutionIconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-64.png" />
-  <SupportUrl DefaultValue="https://www.xlwings.org/contact" />
+  <SupportUrl DefaultValue="https://longph90.github.io/office.js//contact" />
   <AppDomains>
     <AppDomain>https://longph90.github.io/office.js/</AppDomain>
   </AppDomains>
@@ -79,7 +79,7 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://longph90.github.io/office.js/taskpane.html" />
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="MyTab.TabLabel" DefaultValue="Hello World" />
+        <bt:String id="MyTab.TabLabel" DefaultValue="Công cụ của Long ^^" />
         <bt:String id="MyCommandsGroup.Label" DefaultValue="MyGroup" />
         <bt:String id="MyTaskpaneButton.Label" DefaultValue="Show Taskpane" />
       </bt:ShortStrings>
