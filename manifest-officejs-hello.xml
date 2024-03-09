@@ -40,11 +40,11 @@
                 </Icon>
 
                 <!-- Ribbon button that opens the task pane -->
-                <Control xsi:type="Button" id="MyTaskpaneButton">
-                  <Label resid="MyTaskpaneButton.Label" />
+                <Control xsi:type="Button" id="Button-01">
+                  <Label resid="Button-01.Label" />
                   <Supertip>
-                    <Title resid="MyTaskpaneButton.Label" />
-                    <Description resid="MyTaskpaneButton.Tooltip" />
+                    <Title resid="Button-01.Label" />
+                    <Description resid="Button-01.Tooltip" />
                   </Supertip>
                   <Icon>
                     <bt:Image size="16" resid="Icon.16x16" />
@@ -53,9 +53,69 @@
                   </Icon>
                   <!-- Action type must be ShowTaskpane -->
                   <Action xsi:type="ShowTaskpane">
-                    <TaskpaneId>ButtonId1</TaskpaneId>
+                    <TaskpaneId>Button-01</TaskpaneId>
                     <!-- resid must point to a Url Resource -->
-                    <SourceLocation resid="Taskpane.Url" />
+                    <SourceLocation resid="Button-01.Url" />
+                  </Action>
+                </Control>
+
+                <!-- Ribbon button that opens the task pane -->
+                <Control xsi:type="Button" id="Button-02">
+                  <Label resid="Button-02.Label" />
+                  <Supertip>
+                    <Title resid="Button-02.Label" />
+                    <Description resid="Button-02.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <!-- Action type must be ShowTaskpane -->
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>Button-02</TaskpaneId>
+                    <!-- resid must point to a Url Resource -->
+                    <SourceLocation resid="Button-02.Url" />
+                  </Action>
+                </Control>
+
+                <!-- Ribbon button that opens the task pane -->
+                <Control xsi:type="Button" id="Button-03">
+                  <Label resid="Button-03.Label" />
+                  <Supertip>
+                    <Title resid="Button-03.Label" />
+                    <Description resid="Button-03.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <!-- Action type must be ShowTaskpane -->
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>Button-03</TaskpaneId>
+                    <!-- resid must point to a Url Resource -->
+                    <SourceLocation resid="Button-03.Url" />
+                  </Action>
+                </Control>
+
+                <!-- Ribbon button that opens the task pane -->
+                <Control xsi:type="Button" id="Button-04">
+                  <Label resid="Button-04.Label" />
+                  <Supertip>
+                    <Title resid="Button-04.Label" />
+                    <Description resid="Button-04.Tooltip" />
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16" />
+                    <bt:Image size="32" resid="Icon.32x32" />
+                    <bt:Image size="80" resid="Icon.80x80" />
+                  </Icon>
+                  <!-- Action type must be ShowTaskpane -->
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>Button-04</TaskpaneId>
+                    <!-- resid must point to a Url Resource -->
+                    <SourceLocation resid="Button-04.Url" />
                   </Action>
                 </Control>
 
@@ -76,15 +136,24 @@
       </bt:Images>
       <bt:Urls>
         <!-- This must point to the HTML document with the task pane -->
-        <bt:Url id="Taskpane.Url" DefaultValue="https://longph90.github.io/office.js/taskpane.html" />
+        <bt:Url id="Button-01.Url" DefaultValue="https://longph90.github.io/office.js/taskpane.html" />
+        <bt:Url id="Button-02.Url" DefaultValue="https://longph90.github.io/office.js/tool-a.html" />
+        <bt:Url id="Button-03.Url" DefaultValue="https://longph90.github.io/office.js/tool-b.html" />
+        <bt:Url id="Button-04.Url" DefaultValue="https://longph90.github.io/office.js/tool-c.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="MyTab.TabLabel" DefaultValue="Tools" />
         <bt:String id="MyCommandsGroup.Label" DefaultValue="MyGroup" />
-        <bt:String id="MyTaskpaneButton.Label" DefaultValue="PM Tool" />
+        <bt:String id="Button-01.Label" DefaultValue="PM Tool" />
+        <bt:String id="Button-02.Label" DefaultValue="Tool-A" />
+        <bt:String id="Button-03.Label" DefaultValue="Tool-B" />
+        <bt:String id="Button-04.Label" DefaultValue="Tool-C" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="MyTaskpaneButton.Tooltip" DefaultValue="Click to show the task pane" />
+        <bt:String id="Button-01.Tooltip" DefaultValue="Click to show the task pane" />
+        <bt:String id="Button-02.Tooltip" DefaultValue="Click to show the task pane" />
+        <bt:String id="Button-03.Tooltip" DefaultValue="Click to show the task pane" />
+        <bt:String id="Button-04.Tooltip" DefaultValue="Click to show the task pane" />
       </bt:LongStrings>
     </Resources>
 
