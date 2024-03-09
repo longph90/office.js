@@ -8,7 +8,7 @@
   <Version>1.0.0</Version>
   <ProviderName>Zoomer Analytics GmbH</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="PM Tool" />
+  <DisplayName DefaultValue="Task Panel" />
   <Description DefaultValue="A Hello Office.js App." />
   <IconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-32.png" />
   <HighResolutionIconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-64.png" />
