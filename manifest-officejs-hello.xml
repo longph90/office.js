@@ -8,7 +8,7 @@
   <Version>1.0.0</Version>
   <ProviderName>Zoomer Analytics GmbH</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Long Xin Chào" />
+  <DisplayName DefaultValue="PM Tool" />
   <Description DefaultValue="A Hello Office.js App." />
   <IconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-32.png" />
   <HighResolutionIconUrl DefaultValue="https://longph90.github.io/office.js/icons/icon-64.png" />
@@ -79,9 +79,9 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://longph90.github.io/office.js/taskpane.html" />
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="MyTab.TabLabel" DefaultValue="Công cụ của Long ^^" />
+        <bt:String id="MyTab.TabLabel" DefaultValue="Tools" />
         <bt:String id="MyCommandsGroup.Label" DefaultValue="MyGroup" />
-        <bt:String id="MyTaskpaneButton.Label" DefaultValue="Show Taskpane" />
+        <bt:String id="MyTaskpaneButton.Label" DefaultValue="PM Tool" />
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="MyTaskpaneButton.Tooltip" DefaultValue="Click to show the task pane" />
